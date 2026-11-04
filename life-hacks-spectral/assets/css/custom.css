@@ -1,0 +1,87 @@
+/* Life Hacks additions on top of Spectral (HTML5 UP). */
+
+/* Lesson bullets inside the spotlights. */
+.spotlight .content ul.checklist {
+	margin: 0 0 1.5em 0;
+	padding-left: 1.2em;
+	text-align: left;
+}
+
+.spotlight .content ul.checklist li {
+	margin-bottom: 0.6em;
+}
+
+.spotlight .content .why {
+	border-left: solid 3px rgba(255, 255, 255, 0.45);
+	padding-left: 1.25em;
+	text-align: left;
+}
+
+.spotlight .content .why strong {
+	display: block;
+	font-size: 0.75em;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	opacity: 0.8;
+	margin-bottom: 0.25em;
+}
+
+/* Keep text upright. */
+.wrapper em,
+.wrapper i:not(.icon) {
+	font-style: normal;
+}
+
+/* Tool cards: links inside the feature list. */
+.features li p a {
+	text-decoration: underline;
+}
+
+/* Conclusion list. */
+#cta .recap {
+	display: inline-block;
+	margin: 0 0 2em 0;
+	padding-left: 1.5em;
+	text-align: left;
+}
+
+#cta .recap li {
+	margin-bottom: 0.5em;
+}
+
+/* Sources in the footer. */
+#footer .sources {
+	margin: 0 auto 2em auto;
+	max-width: 36em;
+	text-align: left;
+}
+
+#footer .sources h3 {
+	text-align: center;
+}
+
+#footer .sources ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#footer .sources li {
+	border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+	padding: 0.6em 0;
+}
+
+/* Conclusion: stack the heading, list and button in one centered column. */
+#cta .inner {
+	display: block;
+	text-align: center;
+}
+
+#cta .inner header {
+	margin-bottom: 2em;
+}
+
+#cta .actions.stacked {
+	margin: 0 auto;
+	max-width: 20em;
+}
